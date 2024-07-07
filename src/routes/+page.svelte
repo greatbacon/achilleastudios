@@ -1,6 +1,38 @@
-<script>
-	import { page } from "$app/stores";    
+<script>	
+	
 </script>
 
-<h1>Welcome to Your New Loom Site!</h1>
-<p>Visit <a href="https://hub.{$page.url.hostname}">your new loom instance</a> to get started and register your admin account</p>
+<div class="offerings">
+	<a class="tile" href="/quilts">
+		<div>
+			🪡 QUILTS
+		</div>
+	</a>
+	<a class="tile" href="/bandanas">
+		<div>
+			🧣 DOG BANDANAS
+		</div>
+	</a>
+	<a class="tile" href="/upcycled">
+		<div>
+			♻️ UPCYCLED CLOTHES
+		</div>
+	</a>
+</div>
+
+<style>
+	.offerings {
+		font-size: 3em;
+		display: flex;
+		justify-content: center;		
+		height: 50%
+	}
+
+	.tile {
+		padding-top: 1em;
+		margin: 0.25em;
+		text-align: center;
+		width: 33%;
+		border : 5px solid black;
+	}
+</style>
