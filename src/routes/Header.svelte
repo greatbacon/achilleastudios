@@ -13,6 +13,7 @@
     .header {
         align-content: center;
         text-align: center;
+        font-family: TenorSans;
     }
 
     span {
