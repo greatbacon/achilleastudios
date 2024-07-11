@@ -1,5 +1,6 @@
 <script>
-	import Header from './Header.svelte';	
+	import Header from './Header.svelte';
+	import '../app.css';	
 </script>
 
 <div class="app">
@@ -30,6 +31,7 @@
 		max-width: 64rem;
 		margin: 0 auto;
 		box-sizing: border-box;
+		font-family: Forum;
 	}
 
 	footer {
@@ -39,6 +41,7 @@
 		align-items: center;
 		padding: 12px;
         font-size: 2em;
+		font-family: Forum;
 	}
 
 	footer a {
