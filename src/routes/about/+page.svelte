@@ -6,7 +6,7 @@
     <img class="image" src={image} alt="Courtney with her dog Yarrow, in front of a lake."/>
     <div class="text">
         <p>
-            Achillea Studios is the personal project of Courtney Allen. Courtney is based in Denver, where she lives with her partner <a href="https://12mod12.com">Hamilton</a>, her dog Yarrow and her cat Brinkley. 
+            Achillea Studios is the creative project of Courtney Allen. Courtney is based in Denver, where she lives with her partner <a href="https://12mod12.com">Hamilton</a>, her dog Yarrow and her cat Brinkley. 
             She is currently working on her masters in counseling and spends the rest of her time 
             in her sewing room, at the ceramic studio, on trails with Yarrow or catching up with friends and family.
         </p>
