@@ -41,7 +41,7 @@
 		text-align: center;
 		height: 18rem;
 		width: 15rem;
-		border : 5px solid black;
+		border : 2px solid black;
 		border-radius: 25px;
 	}
 
