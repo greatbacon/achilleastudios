@@ -1,36 +1,36 @@
 <script lang="ts">
-    import quilt1 from '$lib/images/quilts/IMG_1066.jpg';
-    import quilt2 from '$lib/images/quilts/IMG_1351.jpg';
-    import quilt3 from '$lib/images/quilts/IMG_6734.jpg';
-    import quilt4 from '$lib/images/quilts/IMG_7015.jpg';
-    import quilt5 from '$lib/images/quilts/IMG_7017.jpg';
-    import quilt6 from '$lib/images/quilts/IMG_9272.jpg';
+    import image1 from '$lib/images/quilts/IMG_1066.jpg';
+    import image2 from '$lib/images/quilts/IMG_1351.jpg';
+    import image3 from '$lib/images/quilts/IMG_6734.jpg';
+    import image4 from '$lib/images/quilts/IMG_7015.jpg';
+    import image5 from '$lib/images/quilts/IMG_7017.jpg';
+    import image6 from '$lib/images/quilts/IMG_9272.jpg';
 	import ImageGallery from '$lib/ImageGallery.svelte';
     import type {Image} from '$lib/imageGallery';
  
     const gallery_items = [
         {
-            url: quilt1,
+            url: image1,
             description: "Quilt of wavy squares, with a scrappy pallette.",
         },
         {
-            url: quilt2,
+            url: image2,
             description: "Quilt of squares and trinagles, with a blue, yellow, and red color pallette.",
         },
         {
-            url: quilt3,
+            url: image3,
             description: "Quilt of trinagles, with a brown and red pallette.",
         },
         {
-            url: quilt4,
+            url: image4,
             description: "Quilt of trinagles, with a christmas pallette.",
         },
         {
-            url: quilt5,
+            url: image5,
             description: "Quilt of arrows, with a blue, green, and red color pallette.",
         },
         {
-            url: quilt6,
+            url: image6,
             description: "Quilt of trinagles, with a scrappy pallette.",
         },
     ] as Image[]
