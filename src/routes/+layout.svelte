@@ -14,6 +14,8 @@
 	<footer>
 		<div class="footerText"><a href="/">HOME</a> <a href="/about">ABOUT</a> <a href="/contact">CONTACT</a></div>
 		<div><img src={logo} alt="the achillea studios logo, styalized red & yellow flowers next to a quilt square" /> </div>
+		<div class="subText">Built with <a href="https://getloom.org" target="_blank">Loom</a></div>
+		<div class="subText">Designed by <a href="https://www.ainsleestudios.com/" target="_blank">Ainslee Studios</a></div>
 	</footer>
 </div>
 
@@ -44,6 +46,8 @@
 		padding: 12px;
         font-size: 2em;
 		font-family: Metropolis;
+		overflow: auto;
+		
 	}
 
 	footer a {
@@ -56,6 +60,12 @@
 	.footerText {
 		display: flex;
 		flex-direction: row;;
+	}
+
+	.subText {
+		font-size: 0.4em;
+		flex-shrink: 0;
+		white-space: nowrap
 	}
 
 	@media (min-width: 480px) {
