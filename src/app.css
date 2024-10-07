@@ -18,3 +18,17 @@
     font-weight: 500;    
     src: url('/fonts/Biryani.ttf') format('truetype'),        
 }
+
+body {
+    background-color: #FFF7EB;
+    color: #012C33;
+    /* color: #05414F */
+}
+
+a:link {
+    color: #DC6968
+}
+
+a:hover {
+    color: #F3868D
+}

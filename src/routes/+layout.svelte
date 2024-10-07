@@ -11,7 +11,7 @@
 	</main>
 
 	<footer>
-		<a href="/about">ABOUT</a> <a href="/contact">CONTACT</a>
+		<a href="/">HOME</a> <a href="/about">ABOUT</a> <a href="/contact">CONTACT</a>
 	</footer>
 </div>
 
