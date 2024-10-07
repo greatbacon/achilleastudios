@@ -1,20 +1,20 @@
 @font-face {
-    font-family: 'TenorSans';
+    font-family: 'Metropolis';
     font-style: normal;
     font-weight: 500;    
-    src: url('/fonts/TenorSans.ttf') format('truetype'),        
+    src: url('/fonts/Metropolis-Regular.ttf') format('truetype'),        
 }
 
-@font-face {
-    font-family: 'Forum';
-    font-style: normal;
-    font-weight: 500;    
-    src: url('/fonts/Forum.ttf') format('truetype'),        
+body {
+    background-color: #FFF7EB;
+    color: #012C33;
+    /* color: #05414F */
 }
 
-@font-face {
-    font-family: 'Biryani';
-    font-style: normal;
-    font-weight: 500;    
-    src: url('/fonts/Biryani.ttf') format('truetype'),        
+a:link {
+    color: #DC6968
+}
+
+a:hover {
+    color: #F3868D
 }

@@ -3,7 +3,7 @@
     import image2 from '$lib/images/bandanas/IMG_7182.jpg';
     import image3 from '$lib/images/bandanas/IMG_5570.jpg';
     import image4 from '$lib/images/bandanas/IMG_9875.jpg';
-    import image5 from '$lib/images/bandanas/IMG_1003.jpg';
+    //import image5 from '$lib/images/bandanas/IMG_1003.jpg';
     import image6 from '$lib/images/bandanas/IMG_9003.jpg';
 	import ImageGallery from '$lib/ImageGallery.svelte';
     import type {Image} from '$lib/imageGallery';
@@ -25,10 +25,10 @@
             url: image4,
             description: "A sleepy golden retriever wearing a blue and white bandana.",
         },
-        {
-            url: image5,
-            description: "A sweet looking bully wearing an orange bandana.",
-        },
+        // {
+        //     url: image5,
+        //     description: "A sweet looking bully wearing an orange bandana.",
+        // },
         {
             url: image6,
             description: "A svelte, black dog giving the camera the side-eye while wearing a yellow bandana.",

@@ -28,7 +28,7 @@
 
 <style>
 	.offerings {
-		font-size: 3rem;
+		font-size: 2.5rem;
 		display: flex;
 		justify-content: center;		
 		height: 50%;
@@ -41,8 +41,9 @@
 		text-align: center;
 		height: 18rem;
 		width: 15rem;
-		border : 2px solid black;
+		border : 2px solid #F3868D;
 		border-radius: 25px;
+		border-style: dashed;
 	}
 
 	.image {

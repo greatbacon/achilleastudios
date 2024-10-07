@@ -1,39 +1,30 @@
-<script lang="ts">
-    import {fade} from 'svelte/transition';
-    import type {Image} from '$lib/imageGallery';
+<script lang="ts">    
+    import {randomInteger, type Image} from '$lib/imageGallery';
     
     export let gallery_items: Image[] = []; 
 
-    let currentSlideItem = 0;
-    $: item = gallery_items[currentSlideItem];
+    let currentSlideItem = randomInteger(0, gallery_items.length-1);    
 
-    const nextImage = () => {
-        currentSlideItem = (currentSlideItem + 1) % gallery_items.length;
-    }
-    const prevImage = () => {
-        if (currentSlideItem != 0) {
-        currentSlideItem = (currentSlideItem - 1) % gallery_items.length;
-        } else {
-            currentSlideItem = gallery_items.length - 1;
-        }
-    }
+    const item1 = gallery_items[currentSlideItem];
+    const item2 = gallery_items[(currentSlideItem + 1) % gallery_items.length]
+    const item3 = gallery_items[(currentSlideItem + 2) % gallery_items.length]
 </script>
 
-<div class="gallery"> 
-    <button class="btn" on:click={() => prevImage()}>&lt;</button>
-    {#key item}
-        <img class="image" in:fade|local={{duration: 400}} src={item.url} alt={item.description}/>
-    {/key}                    
-    <button class="btn" on:click={() => nextImage()}>&gt;</button>        
+<div class="gallery">     
+        <img class="image" src={item1.url} alt={item1.description}/>        
+        <img class="image" src={item2.url} alt={item2.description}/>        
+        <img class="image" src={item3.url} alt={item3.description}/>        
 </div>
 
 <style>
     .gallery {
         text-align: center;
+        display: flex;
+        flex-direction: row;
     }
 
     .image {
-        width: 350px;                
+        width: 10em;                
         margin: 1%;
     } 
 </style>
