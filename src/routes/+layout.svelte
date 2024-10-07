@@ -31,7 +31,7 @@
 		max-width: 64rem;
 		margin: 0 auto;
 		box-sizing: border-box;
-		font-family: Forum;
+		font-family: Metropolis;
 	}
 
 	footer {
@@ -41,7 +41,7 @@
 		align-items: center;
 		padding: 12px;
         font-size: 2em;
-		font-family: Forum;
+		font-family: Metropolis;
 	}
 
 	footer a {
