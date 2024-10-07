@@ -1,5 +1,6 @@
 <script>
 	import Header from './Header.svelte';
+	import logo from '$lib/images/AchilleaStudios-Logo-RGB-A-Offset.png'
 	import '../app.css';	
 </script>
 
@@ -11,7 +12,8 @@
 	</main>
 
 	<footer>
-		<a href="/">HOME</a> <a href="/about">ABOUT</a> <a href="/contact">CONTACT</a>
+		<div class="footerText"><a href="/">HOME</a> <a href="/about">ABOUT</a> <a href="/contact">CONTACT</a></div>
+		<div><img src={logo} alt="the achillea studios logo, styalized red & yellow flowers next to a quilt square" /> </div>
 	</footer>
 </div>
 
@@ -36,7 +38,7 @@
 
 	footer {
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		padding: 12px;
@@ -51,9 +53,18 @@
         margin-bottom: 2%;
 	}
 
+	.footerText {
+		display: flex;
+		flex-direction: row;;
+	}
+
 	@media (min-width: 480px) {
 		footer {
 			padding: 12px 0;
 		}
 	}
+
+	img {
+        height: 3em;
+    }
 </style>
