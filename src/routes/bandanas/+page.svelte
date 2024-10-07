@@ -25,10 +25,10 @@
             url: image4,
             description: "A sleepy golden retriever wearing a blue and white bandana.",
         },
-        {
-            url: image5,
-            description: "A sweet looking bully wearing an orange bandana.",
-        },
+        // {
+        //     url: image5,
+        //     description: "A sweet looking bully wearing an orange bandana.",
+        // },
         {
             url: image6,
             description: "A svelte, black dog giving the camera the side-eye while wearing a yellow bandana.",
